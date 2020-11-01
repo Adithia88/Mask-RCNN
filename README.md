@@ -2,7 +2,7 @@
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
-![Instance Segmentation Sample](assets/3.PNG)
+![Instance Segmentation Sample](assets/1.PNG)
 
 The repository includes:
 * convert json to COCO
@@ -37,7 +37,7 @@ If you use Docker, the code has been verified to work on
 1. Clone this repository
 2. Download this file and put the file like picture below (https://drive.google.com/file/d/1QMlACi1SQDaDQ8Sl9cTXfRwQQyf9k6xC/view?usp=sharing) and ( https://drive.google.com/file/d/1lOJD620DM3IFgBPPbHrCbTDHjWqlCXHy/view?usp=sharing)
 
-![Put file like this](assets/2.png)
+![Put file like this] (assets/2.PNG)
 
 3. Install dependencies
    ```bash
