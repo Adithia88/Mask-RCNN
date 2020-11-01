@@ -2,7 +2,7 @@
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
-![Instance Segmentation Sample](assets/street.png)
+![Instance Segmentation Sample](assets/1.png)
 
 The repository includes:
 * convert json to COCO
@@ -16,8 +16,6 @@ The repository includes:
 
 The code is documented and designed to be easy to extend. If you use it in your research, please consider citing this repository (bibtex below). If you work on 3D vision, you might find our recently released [Matterport3D](https://matterport.com/blog/2017/09/20/announcing-matterport3d-research-dataset/) dataset useful as well.
 This dataset was created from 3D-reconstructed spaces captured by our customers who agreed to make them publicly available for academic use. You can see more examples [here](https://matterport.com/gallery/).
-
-
 
 
 ## Requirements
@@ -57,20 +55,8 @@ If you use Docker, the code has been verified to work on
     You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
     
     
-# Binary-segmentation
+This is an implementation of Plant instance segmentation using deep learning Mask-RCNN on Python 3. This code generates masking and objecdetectiont in every objects in one image.
 
-# Open-CV for Color Detection 
-
-This is an implementation of Plant segmentation using deep learning fractal-net on Python 3. This code generates masking in every objects in one image.
-
-![Binary segmentation Sample](assets/1.PNG)
-
-The repository includes:
-* Source code of plant segemtation using deep learning fractal net.
-* using Spyder IDE to visualize important step.
-* Example of training on your own dataset (training)
-* Example how to test our dataset (testing)
-* evaluate the result 
 
 # Getting Started
 * open sample Load_model R50_E08.ipynb in the main page  Is the easiest way to start. It shows an example of plant instance segmentation (testing only)
