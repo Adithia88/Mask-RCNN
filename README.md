@@ -37,7 +37,7 @@ If you use Docker, the code has been verified to work on
 1. Clone this repository
 2. Download this file and put the file like picture below (https://drive.google.com/file/d/1QMlACi1SQDaDQ8Sl9cTXfRwQQyf9k6xC/view?usp=sharing) and ( https://drive.google.com/file/d/1lOJD620DM3IFgBPPbHrCbTDHjWqlCXHy/view?usp=sharing)
 
-![Put file like this] (assets/2.PNG)
+![Put file like this](assets/2.PNG)
 
 3. Install dependencies
    ```bash
@@ -104,12 +104,15 @@ dataset_train.load_data(Root_dir + your data train path )
 dataset_val.load_data(Root_dir + your data val path )
 
 ![](assets/8.PNG)
+
 epoch =  u can config the epoch i make it 25 for heads
 
 ![](assets/9.PNG)
+
 epoch =  2x heads epochs (!warning just follow what i said)
 
 ![](assets/10.PNG)
+
 so this is bonus stage u can load directly yours model in 1 code  
 real_test_dir = Root_dir + (your test data path) 
 
@@ -124,12 +127,14 @@ press shift+enter per line or Run all
 Make sure u put the models and know the model name, picture below
 
 ![](assets/11.PNG)
+
 so for my model i just have my last models in logs/plant folder. My model name is mask_rcnn_custom_0050.h5
 
 ## 2. test own dataset
 open load_model R50_E08.ipynb code in samples folder, then make sure the path is right and name of the model too.
 
 ![](assets/5.PNG)
+
 Root_dir = (path) which u put whole files  (same as train)
 
 ![](assets/7.PNG)
@@ -137,7 +142,8 @@ Root_dir = (path) which u put whole files  (same as train)
 dataset_train.load_data(Root_dir + your data train path )  (same as train)
 dataset_val.load_data(Root_dir + your data val path )      (same as train)
 
-![](assets/7.PNG)
+![](assets/11.PNG)
+
 model_path = Root_dir + (your own models)  
 
 ![](assets/10.PNG)
