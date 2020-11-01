@@ -2,7 +2,7 @@
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
-![Instance Segmentation Sample](assets/1.png)
+![Instance Segmentation Sample](assets/3.PNG)
 
 The repository includes:
 * convert json to COCO
@@ -68,7 +68,7 @@ This is an implementation of Plant instance segmentation using deep learning Mas
 # step to convert json to COCO 
 
 ## 1. Prepare dataset and make sure the path 
-just put dataset (dataset/custom) in your main path. Make sure u put the data and codes like my picture below!
+open code labelme2coco.py in dataset/custom  and  put dataset (dataset/custom) too in your main path. Make sure u put the data and codes like my picture below!
 like u see i divide my data to 3 part train, val and test (just ignore the .json that the result when u convert it)
 
 ![](assets/3.PNG)
@@ -78,7 +78,7 @@ just change the name folder what u want convert , so in this case we convert 3 t
 
 ![](assets/4.PNG)
 
-## 3. Execute program (1main_kelas.py) 
+## 3. Execute program (Labelme2coco.py) 
 press F5.
 
 
